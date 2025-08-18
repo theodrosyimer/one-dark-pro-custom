@@ -1,0 +1,62 @@
+{
+  "name": "one-dark-pro-custom",
+  "displayName": "One Dark Pro Custom",
+  "description": "A refined dark theme based on the beloved One Dark Pro by Binaryify, featuring enhanced selection behavior, deep blue backgrounds, and orange accents for optimal coding experience",
+  "version": "1.0.0",
+  "publisher": "theodrosyimer",
+  "author": {
+    "name": "Theodros Yimer"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theodrosyimer/one-dark-pro-custom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theodrosyimer/one-dark-pro-custom/issues"
+  },
+  "homepage": "https://github.com/theodrosyimer/one-dark-pro-custom#readme",
+  "keywords": [
+    "theme",
+    "dark",
+    "one dark pro",
+    "one dark",
+    "blue",
+    "orange",
+    "syntax highlighting",
+    "color scheme",
+    "custom selection",
+    "eye strain",
+    "programming",
+    "binaryify"
+  ],
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#001628",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Pro Custom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/One Dark Pro Custom-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  },
+  "__metadata": {
+    "size": 73527
+  }
+}
