@@ -11,3 +11,8 @@ src/**
 .prettierrc*
 tsconfig.json
 webpack.config.js
+.git/**
+.specstory/**
+.cursorindexingignore
+*.log
+*.tmp
