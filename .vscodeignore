@@ -2,3 +2,12 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+*.md.backup
+.DS_Store
+node_modules/**
+src/**
+*.vsix
+.eslintrc.*
+.prettierrc*
+tsconfig.json
+webpack.config.js
