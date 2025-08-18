@@ -46,7 +46,7 @@
       {
         "label": "One Dark Pro Custom",
         "uiTheme": "vs-dark",
-        "path": "./themes/One Dark Pro Custom-color-theme.json"
+        "path": "./themes/one-dark-pro-custom-color-theme.json"
       }
     ]
   },
