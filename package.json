@@ -51,10 +51,15 @@
     ]
   },
   "scripts": {
-    "package": "vsce package"
+    "package": "@vscode/vsce package",
+    "release": "release-it",
+    "release:dry": "release-it --dry-run",
+    "vscode:prepublish": "npm run package"
   },
   "devDependencies": {
-    "vsce": "^2.15.0"
+    "@release-it/conventional-changelog": "^10.0.1",
+    "@vscode/vsce": "^3.6.0",
+    "release-it": "^19.0.4"
   },
   "__metadata": {
     "size": 73527
