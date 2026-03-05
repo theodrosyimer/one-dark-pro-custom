@@ -13,7 +13,6 @@
   "github": {
     "release": true,
     "releaseName": "One Dark Pro Custom v${version}",
-    "releaseNotes": "See [CHANGELOG.md](${repo.repository}/blob/main/CHANGELOG.md#${latestTag}) for details.",
     "assets": [
       "*.vsix"
     ]
@@ -33,7 +32,7 @@
     ],
     "after:git:release": [
       "echo 'Publishing to VS Code Marketplace...'",
-      "pnpm exec vsce publish -p $VSCE_PAT"
+      "pnpm exec vsce publish -p \"$VSCE_PAT\""
     ],
     "after:release": [
       "echo '🎉 Successfully released One Dark Pro Custom v${version}!'"
