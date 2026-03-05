@@ -51,7 +51,7 @@
     ]
   },
   "scripts": {
-    "package": "@vscode/vsce package",
+    "package": "vsce package",
     "release": "release-it",
     "release:dry": "release-it --dry-run",
     "vscode:prepublish": "pnpm run package"
