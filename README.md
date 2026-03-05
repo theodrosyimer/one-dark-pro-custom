@@ -4,7 +4,7 @@ A refined dark theme for Visual Studio Code inspired by the beloved [One Dark Pr
 
 > **Built with ❤️ on top of [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) by [Binaryify](https://github.com/Binaryify)**
 
-![Theme Preview](images/code.svg)
+![Theme Preview](images/code.png)
 
 ## ✨ Features
 
@@ -49,11 +49,11 @@ A refined dark theme for Visual Studio Code inspired by the beloved [One Dark Pr
 
 ### Code Editing
 
-![Code Example](images/code.svg)
+![Code Example](images/code.png)
 
 ### Markdown
 
-![Markdown Example](images/markdown.svg)
+![Markdown Example](images/markdown.png)
 
 <!-- ### UI Elements
 
