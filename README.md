@@ -4,7 +4,7 @@ A refined dark theme for Visual Studio Code inspired by the beloved [One Dark Pr
 
 > **Built with ❤️ on top of [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme) by [Binaryify](https://github.com/Binaryify)**
 
-![Theme Preview](images/preview.png)
+![Theme Preview](images/code.svg)
 
 ## ✨ Features
 
@@ -30,6 +30,7 @@ A refined dark theme for Visual Studio Code inspired by the beloved [One Dark Pr
 ## 🚀 Installation
 
 ### From VS Code Marketplace
+
 1. Open Visual Studio Code
 2. Press `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS) to open Extensions view
 3. Search for "One Dark Pro Custom"
@@ -38,6 +39,7 @@ A refined dark theme for Visual Studio Code inspired by the beloved [One Dark Pr
 6. Select "One Dark Pro Custom"
 
 ### Manual Installation
+
 1. Download the `.vsix` file from the [releases page](https://github.com/theodrosyimer/one-dark-pro-custom/releases)
 2. Open VS Code and run `Extensions: Install from VSIX...` command
 3. Select the downloaded `.vsix` file
@@ -46,22 +48,31 @@ A refined dark theme for Visual Studio Code inspired by the beloved [One Dark Pr
 ## 🎨 Theme Showcase
 
 ### Code Editing
-![Code Example](images/code-example.png)
 
-### UI Elements
-![UI Elements](images/ui-elements.png)
+![Code Example](images/code.svg)
+
+### Markdown
+
+![Markdown Example](images/markdown.svg)
+
+<!-- ### UI Elements
+
+![UI Elements](images/ui-elements.png) -->
 
 ## ⚙️ Configuration
 
 This theme works out of the box without additional configuration. However, you can customize it further:
 
 ### Font Recommendations
+
 For the best experience, consider using these fonts:
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
 - [Fira Code](https://github.com/tonsky/FiraCode)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 - [Cascadia Code](https://github.com/microsoft/cascadia-code)
 
 ### Custom Overrides
+
 Add these to your `settings.json` to customize further:
 
 ```json
@@ -93,14 +104,33 @@ This theme specifically modifies:
 ## 🔧 Development
 
 ### Building from Source
+
 ```bash
 git clone https://github.com/theodrosyimer/one-dark-pro-custom.git
 cd one-dark-pro-custom
-npm install
-npm run package
+pnpm install
+pnpm run package
+```
+
+### Automated Releases
+
+This project uses automated releases via GitHub Actions and `release-it`:
+
+```bash
+# Test release locally (dry run)
+pnpm run release:dry
+
+# Create release locally
+pnpm run release
+
+# Fully automated releases via GitHub Actions:
+# - feat: commits → minor version bump + release
+# - fix: commits → patch version bump + release
+# - feat!: or BREAKING CHANGE → major version bump + release
 ```
 
 ### Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📊 Compatibility
@@ -112,18 +142,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 🐛 Known Issues
 
 - None currently reported
-
-## 📝 Changelog
-
-### [0.0.1] - Initial Release
-- Custom selection behavior implementation
-- Deep blue background color scheme
-- Orange accent color integration
-- Enhanced syntax highlighting for multiple languages
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -137,8 +155,13 @@ This theme wouldn't exist without the incredible work of Binaryify on the origin
 ## 📞 Support
 
 If you encounter any issues or have suggestions:
+
 - Create an issue on [GitHub](https://github.com/theodrosyimer/one-dark-pro-custom/issues)
-- Rate and review on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=your-publisher.one-dark-pro-custom)
+- Rate and review on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TheodrosYimer.one-dark-pro-custom)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
