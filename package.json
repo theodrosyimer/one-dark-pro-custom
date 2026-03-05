@@ -53,8 +53,7 @@
   "scripts": {
     "package": "vsce package",
     "release": "release-it",
-    "release:dry": "release-it --dry-run",
-    "vscode:prepublish": "pnpm run package"
+    "release:dry": "release-it --dry-run"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.5",
