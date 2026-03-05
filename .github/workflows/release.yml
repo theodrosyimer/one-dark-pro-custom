@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "themes/**"
-      - "package.json"
-      - "README.md"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
