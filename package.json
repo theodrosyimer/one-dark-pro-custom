@@ -56,9 +56,9 @@
     "release:dry": "release-it --dry-run"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^10.0.5",
+    "@release-it/conventional-changelog": "^11.0.0",
     "@vscode/vsce": "^3.7.1",
-    "release-it": "^19.2.4"
+    "release-it": "^20.0.1"
   },
   "__metadata": {
     "size": 73527
