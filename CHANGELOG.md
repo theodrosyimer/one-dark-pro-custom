@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2](https://github.com/theodrosyimer/one-dark-pro-custom/compare/v1.0.1...v1.0.2) (2026-04-25)
+
+### 🐛 Bug Fixes
+
+* update basic-ftp package to version 5.3.0 ([a987425](https://github.com/theodrosyimer/one-dark-pro-custom/commit/a9874251bfb82959e2db9f30f82b2e9792e52eec))
+
 ## 1.0.1 (2026-03-05)
 
 ### 🐛 Bug Fixes
